@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro Médico</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Si tienes un archivo CSS para estilos -->
+</head>
+<body>
+    <header><h1>Centro Medico</h1></header>
+    <main class="tabla-container">
+        
+
+        <table id="tabla-pacientes" border="solid" >
+            <h2>LISTADO DE PACIENTES INSCRITOS</h2>
+            <thead>
+                <tr>
+                    <th>Nombres</th>
+                    <th>Apellidos</th>
+                    <th>Número de Cédula</th>
+                    <th>Edad</th>
+                    <th>Telefono</th>
+                    <th>Correo</th>
+                    <th>Especialidad</th>
+                    <th>Paciente</th>
+                </tr>
+            </thead>
+
+            <tbody id="cuerpo-tabla-pacientes">
+                <!-- Se agrega el contenido dinamicamente por medio de JS -->
+                <tr>
+                    <td>Oscar</td>
+                    <td>Casas</td>
+                    <td>123456</td>
+                    <td>101</td>
+                    <td>32145697</td>
+                    <td>oscar@medico.com</td>
+                    <td>Medicina general</td>
+                    <td>José</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </main>
+
+    <br>
+    <form action="index.html">
+        <input type="submit" value="Regresar a la página principal">
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>
